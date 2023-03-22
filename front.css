@@ -1,0 +1,77 @@
+/* p{
+    font-family: "impact", arial;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-shadow: 4px 4px 4px lightcoral;
+    line-height: 50%;
+    letter-spacing: 2px;
+    word word-spacing: 4px;
+    text-align  :left;
+    text-indent: 2rem;
+} */
+
+p:: ::first-line{
+    color: rgb(153, 65, 65);
+    font-variant: small-caps;
+}
+
+.mobil {
+    font-weight: bold;
+}
+
+#BMW {
+    color : yellowgreen
+}
+ 
+#Mercedez {
+    color :aqua
+}
+a:link {
+    color : #122a6b
+}
+
+a:visited{
+    color: rgb(37, 154, 172);
+}
+
+a:hover{
+    color: red ;
+}
+
+a:active{
+    color: pink;
+}
+/* 
+body {
+    background-color: rgb(221, 83, 94);
+    background-image: url(Screenshots/bg1.png);
+} */
+
+.konten {
+    background-color: pink;
+    width: 900px;
+    height: 100px;
+}
+
+div{
+    background-color: maroon;
+    width: 900px;
+    height: 500px;
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+
+h1 {
+    color: whitesmoke;
+    background-color: lightblue;
+    padding: 25px;
+    border: 20px ridge yellow;
+    border-radius: 10px;
+    box-shadow: -0.5rem 0.5rem 1rem gray;
+}
+
+body{
+    background-image: url(dinda's/bg2.png);
+}
